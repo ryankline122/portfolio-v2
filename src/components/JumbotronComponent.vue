@@ -12,10 +12,8 @@
 
 
 <style scoped>
-
 .header{
     height: 80vh;
     background-color: aqua;
 }
-
 </style>
