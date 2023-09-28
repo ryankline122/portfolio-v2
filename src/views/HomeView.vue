@@ -1,7 +1,9 @@
 <script setup>
+import JumbotronComponent from '../components/JumbotronComponent.vue';
+import NavComponent from '../components/NavComponent.vue';
+
 </script>
 
 <template>
-  <main>
-  </main>
+    <JumbotronComponent></JumbotronComponent>
 </template>

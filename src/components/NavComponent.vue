@@ -34,17 +34,6 @@ import { RouterLink } from 'vue-router';
 </template>
 
 <style>
-.navbar {
-    position: fixed !important;
-    top: 0;
-    width: 100%;
-    left: 0;
-    }
-
-.nav-link:hover, .navbar-brand {
-    background-color: inherit !important;
-}
-
 .name {
     font-size: 1.5em;
     text-align: center;

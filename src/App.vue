@@ -8,6 +8,6 @@ import NavComponent from '@/components/NavComponent.vue'
   <RouterView />
 </template>
 
-<style >
+<style scoped>
 
 </style>
