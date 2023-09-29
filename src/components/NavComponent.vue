@@ -5,27 +5,27 @@ import { RouterLink } from 'vue-router';
 <template>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container-fluid">
-        <RouterLink class="navbar-brand" :to="{name: 'home'}">
+        <div class="navbar-brand">
             <div class="name">Ryan Kline</div>
             <hr class="name-spacer">
             <div class="subtitle">Software Engineer</div>
-        </RouterLink>
+        </div>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto mx-5">
             <li class="nav-item mx-3">
-                <RouterLink :to="{name: 'home'}" class="nav-link">Home</RouterLink>
+                <a href="#home" class="nav-link">Home</a>
             </li>
             <li class="nav-item mx-3">
-                <RouterLink :to="{name: 'home'}" class="nav-link">About</RouterLink>
+                <a href="#about" class="nav-link">About</a>
             </li>
             <li class="nav-item mx-3">
-                <RouterLink :to="{name: 'home'}" class="nav-link">Projects</RouterLink>
+                <a href="#projects" class="nav-link">Projects</a>
             </li>
             <li class="nav-item mx-3">
-                <RouterLink :to="{name: 'home'}" class="nav-link">Contact</RouterLink>
+                <a href="#contact" class="nav-link">Contact</a>
             </li>
         </ul>
         </div>

@@ -4,8 +4,8 @@ import ProjectCardComponent from './ProjectCardComponent.vue';
 
 <template>
 
-<div class="container">
-    <h2 class="text-center mb-3">
+<div class="container pt-5">
+    <h2 class="text-center mb-3 pt-5 mt-5">
         Projects
     </h2>
     <div class="row mx-0 px-0">

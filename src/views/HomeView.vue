@@ -10,10 +10,22 @@ import FooterComponent from '../components/FooterComponent.vue'
 </script>
 
 <template>
-    <JumbotronComponent></JumbotronComponent>
-    <AboutComponent class="py-3"></AboutComponent>
+    <div id="home">
+        <JumbotronComponent class="py-5"></JumbotronComponent>
+    </div>
+
+    <div id="about">
+        <AboutComponent class="py-5"></AboutComponent>
+    </div>
     <TimelineComponent class="py-3"></TimelineComponent>
-    <ProjectComponent class="py-5"></ProjectComponent>
-    <ContactComponent class="py-5"></ContactComponent>
+    
+    <div id="projects">
+        <ProjectComponent class="py-5"></ProjectComponent>
+    </div>
+
+    <div id="contact">
+        <ContactComponent class="py-5"></ContactComponent>
+    </div>
+
     <FooterComponent></FooterComponent>
 </template>

@@ -2,14 +2,14 @@
 </script>
 
 <template>
-    <div class="container">
+    <div class="container pt-5">
         <div class="about align-items-center justify-content-center text-center">
         <div class="text-center">
             <div class="profile-picture">
                 <img src="path-to-your-image" alt="Profile Picture" />
             </div>
             <br>
-            <h2 class="mb-3">About Me</h2>
+            <h2 class="mb-3 pt-3">About Me</h2>
         </div>
         <div>
             <p>

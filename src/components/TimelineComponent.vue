@@ -41,7 +41,7 @@
     <div class="container">
       <div class="row text-center justify-content-center mb-5">
         <div class="col-xl-6 col-lg-8">
-          <h2>Professional Experience</h2>
+          <h3>Professional Experience</h3>
           <p class="text-muted">
             To learn more about these experiences, download my <a href="#" download="Ryan_Kline.pdf">resume</a>
         </p>
