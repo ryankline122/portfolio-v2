@@ -4,6 +4,7 @@ import NavComponent from '../components/NavComponent.vue';
 import AboutComponent from '../components/AboutComponent.vue'
 import ProjectComponent from '../components/ProjectComponent.vue'
 import TimelineComponent from '../components/TimelineComponent.vue';
+import ContactComponent from '../components/ContactComponent.vue';
 
 </script>
 
@@ -12,4 +13,5 @@ import TimelineComponent from '../components/TimelineComponent.vue';
     <AboutComponent class="py-3"></AboutComponent>
     <TimelineComponent class="py-3"></TimelineComponent>
     <ProjectComponent class="py-5"></ProjectComponent>
+    <ContactComponent></ContactComponent>
 </template>

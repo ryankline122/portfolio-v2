@@ -42,7 +42,9 @@
       <div class="row text-center justify-content-center mb-5">
         <div class="col-xl-6 col-lg-8">
           <h2>Professional Experience</h2>
-          <p class="text-muted">Some text about my experiences</p>
+          <p class="text-muted">
+            To learn more about these experiences, download my <a href="#" download="Ryan_Kline.pdf">resume</a>
+        </p>
         </div>
       </div>
   
@@ -64,6 +66,9 @@
           </div>
         </div>
       </div>
+
+      <h3></h3>
+
     </div>
   </template>
   

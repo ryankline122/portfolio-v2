@@ -2,15 +2,16 @@
 </script>
 
 <template>
-    <div class="about align-items-center justify-content-center mx-5">
+    <div class="container">
+        <div class="about align-items-center justify-content-center text-center">
         <div class="text-center">
             <div class="profile-picture">
                 <img src="path-to-your-image" alt="Profile Picture" />
             </div>
             <br>
-            <h2>About Me</h2>
+            <h2 class="mb-3">About Me</h2>
         </div>
-        <div class="mx-5">
+        <div>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc id aliquam ultricies, nisl 
                 nunc tincidunt nunc, id aliquet nunc nunc id lectus. Sed euismod, nunc id aliquam ultricies, nisl nunc tincidunt 
@@ -25,4 +26,7 @@
             </p>
         </div>
     </div>
+
+    </div>
+    
 </template>
