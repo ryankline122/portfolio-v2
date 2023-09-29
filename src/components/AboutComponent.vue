@@ -10,7 +10,7 @@
             <br>
             <h2>About Me</h2>
         </div>
-        <div class="mx-5 fs-5">
+        <div class="mx-5">
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc id aliquam ultricies, nisl 
                 nunc tincidunt nunc, id aliquet nunc nunc id lectus. Sed euismod, nunc id aliquam ultricies, nisl nunc tincidunt 
