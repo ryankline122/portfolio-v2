@@ -5,6 +5,7 @@ import AboutComponent from '../components/AboutComponent.vue'
 import ProjectComponent from '../components/ProjectComponent.vue'
 import TimelineComponent from '../components/TimelineComponent.vue';
 import ContactComponent from '../components/ContactComponent.vue';
+import FooterComponent from '../components/FooterComponent.vue'
 
 </script>
 
@@ -13,5 +14,6 @@ import ContactComponent from '../components/ContactComponent.vue';
     <AboutComponent class="py-3"></AboutComponent>
     <TimelineComponent class="py-3"></TimelineComponent>
     <ProjectComponent class="py-5"></ProjectComponent>
-    <ContactComponent></ContactComponent>
+    <ContactComponent class="py-5"></ContactComponent>
+    <FooterComponent></FooterComponent>
 </template>
