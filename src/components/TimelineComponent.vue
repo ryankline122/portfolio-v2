@@ -1,8 +1,11 @@
 <script>
+  import resume from '@/assets/documents/Ryan_Kline_Resume_Public.pdf'
   export default {
     name: 'Timeline',
+    resume: 'Ryan_Kline_Resume.pdf',
     data() {
       return {
+        resume,
         timelineItems: [
           {
             title: 'Intern, Information Technology',
@@ -43,7 +46,7 @@
         <div class="col-xl-6 col-lg-8">
           <h3>Professional Experience</h3>
           <p class="text-muted">
-            To learn more about these experiences, download my <a href="#" download="Ryan_Kline.pdf">resume</a>
+            To learn more about my experience, download my <a :href="resume" download="Ryan Kline Resume">resume</a>
         </p>
         </div>
       </div>
