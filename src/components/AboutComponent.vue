@@ -3,7 +3,7 @@
 
 <template>
     <div class="container pt-5 mt-5">
-        <div class="about align-items-center justify-content-center text-center">
+        <div class="about align-items-center justify-content-center">
         <div class="text-center">
             <div class="profile-picture mx-auto mt-5">
                 <img src="@/assets/profile-pic.jpg" alt="Profile Picture" id="profile-picture"/>
@@ -13,16 +13,19 @@
         </div>
         <div>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc id aliquam ultricies, nisl 
-                nunc tincidunt nunc, id aliquet nunc nunc id lectus. Sed euismod, nunc id aliquam ultricies, nisl nunc tincidunt 
-                nunc, id aliquet nunc nunc id lectus.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-                dolore magna aliqua. Lectus sit amet est placerat in egestas. Euismod quis viverra nibh cras pulvinar 
-                mattis nunc sed blandit. Urna molestie at elementum eu facilisis sed odio morbi. Egestas tellus rutrum tellus 
-                pellentesque eu tincidunt tortor aliquam nulla. In nibh mauris cursus mattis. Felis bibendum ut tristique et 
-                egestas quis ipsum suspendisse ultrices. Id ornare arcu odio ut sem nulla pharetra diam sit. Aliquet porttitor 
-                lacus luctus accumsan tortor posuere ac ut consequat. Non odio euismod lacinia at quis risus sed vulputate. 
-                Lectus proin nibh nisl condimentum id venenatis a condimentum. Sed odio morbi quis commodo odio aenean sed adipiscing.
+                Hello world, my name is Ryan Kline. I am an upcoming computer science graduate from Grand Valley State University with over a
+                year and a half of diverse internship experience ranging from information technology, electronics engineering, and full-stack
+                web development. Through these experiences I've been able to work with all sorts of programming languages and development technologies
+                including Python, JavaScript/TypeScript, .NET, Docker, OpenCV, and much more.<br><br>
+                
+                My passion for software began in my high school robotics class where I was the designated programmer on my team and learned the basics 
+                in a Scratch-like IDE. Since then, I've been able to study various aspects of computer science through my time at Grand Valley as 
+                well as my own independent study in areas such as embedded systems, artificial intelligence, language design, and game development.<br><br>
+                
+                In addition to my technical skills, I’ve also learned how to effectively work on projects of various scopes. Whether its working 
+                on a large development team utilizing Agile, a group of interdisciplinary engineers building a product from the ground up, 
+                or building something completely on my own, I always try to follow best practices to ensure whatever project 
+                I’m working on comes out the best it can be!
             </p>
         </div>
     </div>

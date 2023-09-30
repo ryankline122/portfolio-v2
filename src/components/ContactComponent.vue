@@ -4,9 +4,9 @@
 
 <template>
     <div class="container mt-5 text-center">
-        <h2>Contact Me</h2>
+        <h2>Interested in Working Together?</h2>
         <p class="text-muted">
-        Please fill out the form below
+        Please fill out the form below and let's chat!
         </p>
       <div class="row justify-content-center">
         <form action="https://getform.io/f/05681971-283c-40ad-9c6b-b116b15df570" method="POST" class="col-md-7">
