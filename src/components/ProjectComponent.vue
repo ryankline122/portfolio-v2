@@ -9,7 +9,7 @@ import ProjectCardComponent from './ProjectCardComponent.vue';
         Projects
     </h2>
     <div class="row mx-0 px-0">
-        <div class="col px-4">
+        <div class="col-md-4 px-4">
             <ProjectCardComponent 
                 imageUrl="bank.jpg"
                 title="NFC Banking Application"
@@ -17,7 +17,7 @@ import ProjectCardComponent from './ProjectCardComponent.vue';
                 :technologies="['Python', 'Tkinter', 'SQLite', 'Raspberry Pi 4']"
             />
         </div>
-        <div class="col px-4">
+        <div class="col-md-4 px-4">
             <ProjectCardComponent 
                 imageUrl="pcb.PNG"
                 title="PCB Viewer"
@@ -25,7 +25,7 @@ import ProjectCardComponent from './ProjectCardComponent.vue';
                 :technologies="['Python', 'Qt', 'Raspberry Pi 4']"
             />
         </div>
-        <div class="col px-4">
+        <div class="col-md-4 px-4">
             <ProjectCardComponent 
                 imageUrl="job-board.PNG"
                 title="Job Board Scraper"
@@ -36,7 +36,7 @@ import ProjectCardComponent from './ProjectCardComponent.vue';
     </div><br>
 
     <div class="row mx-0 px-0">
-        <div class="col px-4">
+        <div class="col-md-4 px-4">
             <ProjectCardComponent 
                 imageUrl="maze.PNG"
                 title="Maze Generator and Solver"
@@ -44,7 +44,7 @@ import ProjectCardComponent from './ProjectCardComponent.vue';
                 :technologies="['Python']"
             />
         </div>
-        <div class="col px-4">
+        <div class="col-md-4 px-4">
             <ProjectCardComponent 
                 imageUrl="monopoly.PNG"
                 title="Monopoly/Board Game Mechanics Demo"
@@ -52,6 +52,7 @@ import ProjectCardComponent from './ProjectCardComponent.vue';
                 :technologies="['C#', 'Unity']"
             />
         </div>
+    
     </div><br>
 </div>
 

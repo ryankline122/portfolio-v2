@@ -47,47 +47,43 @@
         </p>
         </div>
       </div>
-  
-      <div class="row">
-        <div class="col">
-          <div class="timeline-steps aos-init aos-animate" data-aos="fade-up">
-            <div
-              class="timeline-step"
-              v-for="(item, index) in timelineItems"
-              :key="index"
-            >
-              <div class="timeline-content">
-                <div class="inner-circle"></div>
-                <p class="h6 mt-3 mb-2">{{ item.startDate }}</p>
-                <p class="h6 text-muted px-4">{{ item.company}}</p>
-                <p class="h6 text-muted px-4"><b>{{ item.title}}</b></p>
+
+      <div class="d-md-block d-none">
+        <div class="row">
+          <div class="col">
+            <div class="timeline-steps aos-init aos-animate" data-aos="fade-up">
+              <div
+                class="timeline-step"
+                v-for="(item, index) in timelineItems"
+                :key="index"
+              >
+                <div class="timeline-content">
+                  <div class="inner-circle"></div>
+                  <p class="h6 mt-3 mb-2">{{ item.startDate }}</p>
+                  <p class="h6 text-muted px-4">{{ item.company }}</p>
+                  <p class="h6 text-muted px-4"><b>{{ item.title }}</b></p>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-
-      <h3></h3>
-
     </div>
-  </template>
+  </div>
+</template>
   
 
 <style scoped>
   .timeline-steps {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
   }
-  
   .timeline-steps .timeline-step {
     align-items: center;
     display: flex;
     flex-direction: column;
     position: relative;
   }
-  
-  @media (min-width: 768px) {
+
     .timeline-steps .timeline-step:not(:last-child):after {
       content: "";
       display: block;
@@ -105,8 +101,7 @@
       position: absolute;
       right: 7.5rem;
       top: 0.3125rem;
-    }
-  }
+    } 
   
   .timeline-steps .timeline-content {
     width: 11rem;
