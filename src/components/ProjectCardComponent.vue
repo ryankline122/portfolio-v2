@@ -31,7 +31,9 @@ export default {
 
 <template>
   <div class="card">
-    <img :src="getImageUrl()" class="card-img-top" alt="Project Image">
+    <a :href="getImageUrl()" target="_blank">
+      <img :src="getImageUrl()" class="card-img-top" alt="Project Image">
+    </a>
     <div class="card-body">
       <h5 class="card-title">{{ title }}</h5>
       <p class="card-text">{{ description }}</p>
