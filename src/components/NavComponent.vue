@@ -1,8 +1,15 @@
-<script setup>
-import { RouterLink } from 'vue-router';
+<script>
+export default {
+  data() {
+    return {
+      isNavOpen: false,
+    }
+  },
+}
 </script>
 
 <template>
+    
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container-fluid">
         <div class="navbar-brand">
@@ -10,10 +17,10 @@ import { RouterLink } from 'vue-router';
             <hr class="name-spacer">
             <div class="subtitle">Software Engineer</div>
         </div>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" @click="isNavOpen = !isNavOpen" :aria-expanded="isNavOpen">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="collapse navbar-collapse" :class="{ show: isNavOpen }">
         <ul class="navbar-nav ms-auto mx-5">
             <li class="nav-item mx-3">
                 <a href="#home" class="nav-link">Home</a>
