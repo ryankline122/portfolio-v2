@@ -48,8 +48,8 @@ export default {
 }
 
 .card-img-top {
-  height: 200px;
-  object-fit: cover;
+  height: 15rem;
+  object-fit:fill;
 }
 
 .technologies {

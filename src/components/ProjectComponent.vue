@@ -27,9 +27,10 @@ import ProjectCardComponent from './ProjectCardComponent.vue';
         </div>
         <div class="col px-4">
             <ProjectCardComponent 
-                title="Hello World 3"
-                description="Just playing around"
-                :technologies="['Java', 'Python']"
+                imageUrl="job-board.PNG"
+                title="Job Board Scraper"
+                description="Describe Me"
+                :technologies="['VueJs', 'ExpressJS', 'Python']"
             />
         </div>
     </div><br>
@@ -37,23 +38,18 @@ import ProjectCardComponent from './ProjectCardComponent.vue';
     <div class="row mx-0 px-0">
         <div class="col px-4">
             <ProjectCardComponent 
-                title="Hello World"
-                description="Just playing around"
-                :technologies="['Java', 'Python']"
+                imageUrl="maze.PNG"
+                title="Maze Generator and Solver"
+                description="Describe Me"
+                :technologies="['Python']"
             />
         </div>
         <div class="col px-4">
             <ProjectCardComponent 
-                title="Hello World 2"
-                description="Just playing around"
-                :technologies="['Java', 'Python']"
-            />
-        </div>
-        <div class="col px-4">
-            <ProjectCardComponent 
-                title="Hello World 3"
-                description="Just playing around"
-                :technologies="['Java', 'Python']"
+                imageUrl="monopoly.PNG"
+                title="Monopoly/Board Game Mechanics Demo"
+                description="Describe Me"
+                :technologies="['C#', 'Unity']"
             />
         </div>
     </div><br>
