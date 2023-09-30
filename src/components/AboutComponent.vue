@@ -2,11 +2,11 @@
 </script>
 
 <template>
-    <div class="container pt-5">
+    <div class="container pt-5 mt-5">
         <div class="about align-items-center justify-content-center text-center">
         <div class="text-center">
-            <div class="profile-picture">
-                <img src="path-to-your-image" alt="Profile Picture" />
+            <div class="profile-picture mx-auto mt-5">
+                <img src="@/assets/profile-pic.jpg" alt="Profile Picture" id="profile-picture"/>
             </div>
             <br>
             <h2 class="mb-3 pt-3">About Me</h2>
@@ -30,3 +30,21 @@
     </div>
     
 </template>
+
+
+<style>
+.profile-picture{
+  width: 15rem;
+  height: 15rem;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+img {
+  /* display: inline; */
+  /* margin: 0 auto; */
+  height: 100%;
+  width: auto;
+}
+</style>

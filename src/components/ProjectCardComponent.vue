@@ -18,13 +18,20 @@ export default {
       type: Array,
       required: true
     }
+  },
+
+  methods: {
+    getImageUrl() {
+    // This path must be correct for your file
+    return new URL(`../assets/projects/${this.imageUrl}`, import.meta.url)
+    }
   }
 }
 </script>
 
 <template>
   <div class="card">
-    <img :src="imageUrl" class="card-img-top" alt="Project Image">
+    <img :src="getImageUrl()" class="card-img-top" alt="Project Image">
     <div class="card-body">
       <h5 class="card-title">{{ title }}</h5>
       <p class="card-text">{{ description }}</p>

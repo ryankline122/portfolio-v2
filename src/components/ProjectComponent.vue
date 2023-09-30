@@ -11,16 +11,18 @@ import ProjectCardComponent from './ProjectCardComponent.vue';
     <div class="row mx-0 px-0">
         <div class="col px-4">
             <ProjectCardComponent 
-                title="Hello World"
-                description="Just playing around"
-                :technologies="['Java', 'Python']"
+                imageUrl="bank.jpg"
+                title="NFC Banking Application"
+                description="Describe Me"
+                :technologies="['Python', 'Tkinter', 'SQLite', 'Raspberry Pi 4']"
             />
         </div>
         <div class="col px-4">
             <ProjectCardComponent 
-                title="Hello World 2"
-                description="Just playing around"
-                :technologies="['Java', 'Python']"
+                imageUrl="pcb.PNG"
+                title="PCB Viewer"
+                description="Describe Me"
+                :technologies="['Python', 'Qt', 'Raspberry Pi 4']"
             />
         </div>
         <div class="col px-4">
