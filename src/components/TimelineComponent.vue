@@ -15,7 +15,7 @@
           {
             title: 'Intern, Electronics Engineering',
             company: 'DISHER',
-            startDate: 'November 2021',
+            startDate: 'May 2022',
           },
           {
             title: 'Intern, Web Developer',
