@@ -16,7 +16,7 @@ import ProjectCardComponent from './ProjectCardComponent.vue';
                 description="Using an expert-system style approach, I created an AI agent to play as Donkey Kong in Super Smash Bros. Melee.
                 A Python script reads in directly from the games memory to access important gamestate like player location, health, and remaining lives to
                 make informed decisions on what actions to take at any given moment."
-                :technologies="['Python', 'Dolphin Emulator', 'Dolpin Memory Engine']"
+                :technologies="['Python', 'Dolphin Emulator', 'Dolphin Memory Engine']"
                 :source="'https://github.com/ryankline122/SSBM_AI'"
             />
         </div>
