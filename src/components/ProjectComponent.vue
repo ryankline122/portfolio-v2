@@ -11,12 +11,13 @@ import ProjectCardComponent from './ProjectCardComponent.vue';
     <div class="row mx-0 px-0">
         <div class="col-md-4 px-4">
             <ProjectCardComponent 
-                imageUrl="bank.jpg"
-                title="NFC Banking Application"
-                description="In an open-ended semester project for my Intro to Software Engineering course, my team and I built
-                a mock banking application for the Raspberry Pi 4 that interfaces with an NFC HAT that would be able to identify users when logging in
-                or transferring money to other accounts."
-                :technologies="['Python', 'Tkinter', 'SQLite', 'Raspberry Pi 4']"
+                imageUrl="SSBM2.PNG"
+                title="Super Smash Bros. Melee AI"
+                description="Using an expert-system style approach, I created an AI agent to play as Donkey Kong in Super Smash Bros. Melee.
+                A Python script reads in directly from the games memory to access important gamestate like player location, health, and remaining lives to
+                make informed decisions on what actions to take at any given moment."
+                :technologies="['Python', 'Dolphin Emulator', 'Dolpin Memory Engine']"
+                :source="'https://github.com/ryankline122/SSBM_AI'"
             />
         </div>
         <div class="col-md-4 px-4">
@@ -50,6 +51,16 @@ import ProjectCardComponent from './ProjectCardComponent.vue';
                 of your choice in addition to implementing two different maze solving algorithms. For this assignment, I used Prim's for the generation and
                 Tremaux and A* search algorithms to successfully complete this assignment."
                 :technologies="['Python', 'Prim\'s Algorithm', 'Tremaux Search', 'A* Search']"
+            />
+        </div>
+        <div class="col-md-4 px-4">
+            <ProjectCardComponent 
+                imageUrl="bank.jpg"
+                title="NFC Banking Application"
+                description="In an open-ended semester project for my Intro to Software Engineering course, my team and I built
+                a mock banking application for the Raspberry Pi 4 that interfaces with an NFC HAT that would be able to identify users when logging in
+                or transferring money to other accounts."
+                :technologies="['Python', 'Tkinter', 'SQLite', 'Raspberry Pi 4']"
             />
         </div>
         <div class="col-md-4 px-4">

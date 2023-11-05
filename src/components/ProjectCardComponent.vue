@@ -17,6 +17,10 @@ export default {
     technologies: {
       type: Array,
       required: true
+    },
+    source: {
+      type: String,
+      required: false
     }
   },
 
@@ -40,6 +44,8 @@ export default {
       <div class="technologies">
         <span v-for="technology in technologies" :key="technology" class="badge bg-secondary">{{ technology }}</span>
       </div>
+      <br>
+      <a v-if="source" href="https://drive.google.com/file/d/1l91F5gM8ztTe-moAwJr9ZhFrlsiNgogG/view?usp=sharing">Demo</a>
     </div>
   </div>
 </template>
