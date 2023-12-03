@@ -6,7 +6,7 @@
     <div class="overlay text-center">
       <h1>Hi, I'm Ryan</h1>
       <p>
-        Currently seeking full-time employment as early as December 2023
+      Full-Stack Developer at Corewell Health
       </p>
     </div>
   </div>

@@ -28,9 +28,9 @@
             startDate: 'December 2023',
           },
           {
-            title: 'TBD',
-            company: '',
-            startDate: '2024',
+            title: 'Full-Stack Web Developer',
+            company: 'Corewell Health',
+            startDate: 'January 2024',
           },
           // Add more timeline items here...
         ],
