@@ -8,5 +8,8 @@ import { Component } from '@angular/core';
   styleUrl: './footer.component.css'
 })
 export class FooterComponent {
-
+  linkedinLogo: string = "/assets/images/linkedin.png"
+  linkedinURL: string = "https://www.linkedin.com/in/ryanjkline/"
+  ghLogo: string = "/assets/images/gh.png"
+  ghURL: string = "https://github.com/ryankline122"
 }
