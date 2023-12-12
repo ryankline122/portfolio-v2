@@ -1,0 +1,28 @@
+<div class="container">
+    <div class="row text-center justify-content-center mb-5">
+      <div class="col-xl-6 col-lg-8">
+        <h3>Professional Experience</h3>
+        <p class="text-muted">
+          To learn more about my experience, download my <a :href="{{resume}}" download="Ryan Kline Resume">resume</a>
+      </p>
+      </div>
+    </div>
+
+    <div class="d-md-block d-none">
+        <div class="row">
+          <div class="col">
+            <div class="timeline-steps" data-aos="fade-up">
+              <div class="timeline-step" *ngFor="let item of timelineItems; let index = index">
+                <div class="timeline-content">
+                  <div class="inner-circle"></div>
+                  <p class="h6 mt-3 mb-2">{{ item.startDate }}</p>
+                  <p class="h6 text-muted px-4">{{ item.company }}</p>
+                  <p class="h6 text-muted px-4"><b>{{ item.title }}</b></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+      

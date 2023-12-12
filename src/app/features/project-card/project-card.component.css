@@ -1,0 +1,16 @@
+.card {
+    width:auto;
+  }
+  
+  .card-img-top {
+    height: 15rem;
+    object-fit:fill;
+  }
+  
+  .technologies {
+    margin-top: 10px;
+  }
+  
+  .badge {
+    margin-right: 5px;
+  }
