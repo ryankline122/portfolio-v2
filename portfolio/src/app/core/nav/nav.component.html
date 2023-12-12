@@ -1,0 +1,28 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-brand">
+            <div class="name">Ryan Kline</div>
+            <hr class="name-spacer">
+            <div class="subtitle">Software Engineer</div>
+        </div>
+        <button class="navbar-toggler" type="button" onclick="isNavOpen = !isNavOpen" :aria-expanded="isNavOpen">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" :class="{ show: isNavOpen }">
+        <ul class="navbar-nav ms-auto mx-5">
+            <li class="nav-item mx-3">
+                <a href="#home" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item mx-3">
+                <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item mx-3">
+                <a href="#projects" class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item mx-3">
+                <a href="#contact" class="nav-link">Contact</a>
+            </li>
+        </ul>
+        </div>
+    </div>
+</nav>
