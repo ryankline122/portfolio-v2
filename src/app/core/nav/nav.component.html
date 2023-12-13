@@ -5,10 +5,10 @@
             <hr class="name-spacer">
             <div class="subtitle">Software Engineer</div>
         </div>
-        <button class="navbar-toggler" type="button" onclick="isNavOpen = !isNavOpen" :aria-expanded="isNavOpen">
+        <button class="navbar-toggler" type="button" (click)="toggleNav()" [attr.aria-expanded]="isNavOpen.toString()">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" :class="{ show: isNavOpen }">
+        <div class="collapse navbar-collapse" [ngClass]="{ show: isNavOpen }">
         <ul class="navbar-nav ms-auto mx-5">
             <li class="nav-item mx-3">
                 <a href="#home" class="nav-link">Home</a>
