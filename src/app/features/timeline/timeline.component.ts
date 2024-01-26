@@ -17,5 +17,5 @@ export class TimelineComponent {
     {title: "Obtained C.S Degree", company: "Grand Valley State University", startDate: "December 2023"},
     {title: "Full-Stack Web Developer", company: "Corewell Health", startDate: "Janurary 2024"},
   ]
-  resume: string = "link-to-resume"
+  resume: string = "/assets/documents/Ryan-Kline-Resume-Public.pdf"
 }
