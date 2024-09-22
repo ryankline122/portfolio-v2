@@ -1,0 +1,10 @@
+<div>
+    <h4>{{exp.Title}}, {{exp.Company}} ({{exp.StartDate}} - {{exp.EndDate}})</h4>
+    <p>{{exp.Description}}</p>
+    <h6>Key Accomplishments</h6>
+    <ul>
+        @for (a of exp.Accomplishments; track $index) {
+            <li> {{exp.Accomplishments.at($index)}} </li>
+        }
+    </ul>
+</div>

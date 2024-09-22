@@ -1,1 +1,47 @@
-<p>resume works!</p>
+<app-nav></app-nav>
+<div>
+    <div class="container pt-5 my-5">
+        <div class="about align-items-center justify-content-center mt-5">
+            <h2 class="text-center">Professional Experience</h2>
+            <p class="text-muted text-center">
+                For a PDF copy of my resume, click <a :href="#" download="Ryan Kline Resume">here</a>
+            </p>
+            <h3>SUMMARY</h3>
+            <hr>
+            <p>
+                Over the last two years of working in the industry, I've worked on projects ranging from an autonomous
+                robot for the almond industry, a web-based member portal for a health insurance large health care provider,
+                a data center management system, and the cloud-based backend to an innovative PARCS product. This breadth of
+                experience so early in my career puts me in a unique position to confidently tackle whatever project comes next.
+            </p>
+
+            <h3>EXPERIENCE</h3>
+            <hr>
+            @for (experience of workExperiences; track $index) {
+                <app-experience
+                    [exp]=experience
+                ></app-experience>
+            }
+
+            <h3>EDUCATION</h3>
+            <hr>
+            @for (experience of educationExperience; track $index) {
+                <app-experience
+                    [exp]=experience
+                ></app-experience>
+            }
+
+            <h3>ACTIVITIES</h3>
+            <hr>
+            @for (experience of volunteerExperience; track $index) {
+                <app-experience
+                    [exp]=experience
+                ></app-experience>
+            }
+        </div>
+    </div>
+
+    <div class="pt-5">
+        <app-footer />
+    </div>
+</div>

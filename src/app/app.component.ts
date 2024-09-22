@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
 import { NavComponent } from './components/nav/nav.component';
-import { AboutMeComponent } from './core/home/about-me/about-me.component';
+import { AboutComponent } from './core/home/about/about.component';
 import { ContactComponent } from './core/contact/contact/contact.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { TimelineComponent } from './core/resume/timeline/timeline.component';
@@ -18,7 +18,7 @@ import { HomeComponent } from "./core/home/home.component";
     CommonModule,
     RouterOutlet,
     NavComponent,
-    AboutMeComponent,
+    AboutComponent,
     JumbotronComponent,
     ContactComponent,
     FooterComponent,
