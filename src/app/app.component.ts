@@ -3,7 +3,8 @@ import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
 import { NavComponent } from './components/nav/nav.component';
 import { AboutComponent } from './core/home/about/about.component';
-import { ContactComponent } from './core/contact/contact/contact.component';
+import { ContactComponent } from './core/contact/contact.component';
+import { ContactFormComponent } from './core/contact/contact-form/contact-form.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { TimelineComponent } from './core/resume/timeline/timeline.component';
 import { JumbotronComponent } from './components/jumbotron/jumbotron.component';
@@ -21,6 +22,7 @@ import { HomeComponent } from "./core/home/home.component";
     AboutComponent,
     JumbotronComponent,
     ContactComponent,
+    ContactFormComponent,
     FooterComponent,
     TimelineComponent,
     ProjectsComponent,
