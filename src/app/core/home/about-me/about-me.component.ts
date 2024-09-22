@@ -8,5 +8,5 @@ import { Component, Input } from '@angular/core';
   styleUrl: './about-me.component.css'
 })
 export class AboutMeComponent {
-  profilePictureSrc: string = "/assets/images/profile-pic.jpg"
+  profilePictureSrc: string = "/assets/images/headshot.jpeg"
 }

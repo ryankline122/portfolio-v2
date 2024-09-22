@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './contact.component.css'
 })
 export class ContactComponent {
-
+  getFormEndpoint: string = "https://getform.io/f/05681971-283c-40ad-9c6b-b116b15df570"
 }

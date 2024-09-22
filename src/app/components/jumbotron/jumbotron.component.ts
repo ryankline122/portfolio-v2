@@ -9,6 +9,6 @@ import { Component } from '@angular/core';
 })
 export class JumbotronComponent {
   title: string = "Hi, I'm Ryan"
-  subtitle: string = "Full-Stack Developer at Corewell Health"
+  subtitle: string = "Full Stack Software Engineer"
   backgroundImage: string = "/assets/images/wallpaper.jpg"
 }

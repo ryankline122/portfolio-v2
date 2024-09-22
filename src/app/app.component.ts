@@ -1,13 +1,15 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
-import { NavComponent } from './core/nav/nav.component';
-import { AboutMeComponent } from './core/about-me/about-me.component';
-import { ContactComponent } from './core/contact/contact.component';
-import { FooterComponent } from './core/footer/footer.component';
-import { TimelineComponent } from './features/timeline/timeline.component';
-import { JumbotronComponent } from './shared/jumbotron/jumbotron.component';
-import { ProjectsComponent } from './core/projects/projects.component';
+import { NavComponent } from './components/nav/nav.component';
+import { AboutMeComponent } from './core/home/about-me/about-me.component';
+import { ContactComponent } from './core/contact/contact/contact.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { TimelineComponent } from './core/resume/timeline/timeline.component';
+import { JumbotronComponent } from './components/jumbotron/jumbotron.component';
+import { ProjectsComponent } from './core/portfolio/projects/projects.component';
+import { IntroductionComponent } from "./core/home/introduction/introduction.component";
+import { HomeComponent } from "./core/home/home.component";
 
 @Component({
   selector: 'app-root',
@@ -22,7 +24,9 @@ import { ProjectsComponent } from './core/projects/projects.component';
     FooterComponent,
     TimelineComponent,
     ProjectsComponent,
-  ],
+    IntroductionComponent,
+    HomeComponent
+],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
