@@ -74,7 +74,7 @@ export class ResumeComponent {
         identify issues with their manufacturing equipment`
       ]
     },
-  ]
+  ];
 
   educationExperience: ResumeExperience[] = [
     {
@@ -91,7 +91,7 @@ export class ResumeComponent {
         equipment status, and more.`
       ]
     }
-  ]
+  ];
 
   volunteerExperience: ResumeExperience[] = [
     {
@@ -107,5 +107,5 @@ export class ResumeComponent {
         `In the spring, our group traveled to Sea Bright, New Jersey and worked with the Saint Bernard Project to restore homes damaged by Hurricane Sandy.`,
       ]
     }
-  ]
+  ];
 }

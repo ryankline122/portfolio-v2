@@ -9,5 +9,5 @@ import { RouterLink } from '@angular/router';
   styleUrl: './about.component.css'
 })
 export class AboutComponent {
-  profilePictureSrc: string = "/assets/images/headshot.jpeg"
+  profilePictureSrc: string = "/assets/images/headshot.jpeg";
 }

@@ -10,5 +10,4 @@ import { NavComponent } from "../../components/nav/nav.component";
   styleUrl: './blog.component.css'
 })
 export class BlogComponent {
-
 }

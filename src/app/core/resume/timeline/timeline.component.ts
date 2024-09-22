@@ -16,6 +16,6 @@ export class TimelineComponent {
     {title: "Intern, Web Developer", company: "Corewell Health", startDate: "May 2023"},
     {title: "Full-Stack Web Developer", company: "Corewell Health", startDate: "Janurary 2024"},
     {title: "Associate Software Developer", company: "Flash", startDate: "July 2024"},
-  ]
-  resume: string = "/assets/documents/Ryan-Kline-Resume-Public.pdf"
+  ];
+  resume: string = "/assets/documents/Ryan-Kline-Resume-Public.pdf";
 }

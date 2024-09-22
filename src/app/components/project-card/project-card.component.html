@@ -9,7 +9,7 @@
         <span *ngFor="let technology of technologies" class="badge bg-secondary">{{ technology }}</span>
       </div>
       <br>
-      @if (source != "") {
+      @if (source !== "") {
         <a href="{{source}}">View Source</a>
       }@else {
         <a href="{{source}}">{{source}}</a>

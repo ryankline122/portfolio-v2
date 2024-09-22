@@ -11,7 +11,7 @@ import { Project } from '../../../models/project.model';
   styleUrl: './projects.component.css'
 })
 export class ProjectsComponent {
-  imageFolder: string = "/assets/images/projects"
+  imageFolder: string = "/assets/images/projects";
   projects: Project[] = [
     {
       image: `${this.imageFolder}/SSBM2.PNG`,
